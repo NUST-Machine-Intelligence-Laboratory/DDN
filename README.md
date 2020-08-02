@@ -19,8 +19,8 @@ The code is currently tested only on GPU.
     Download data into DDN root directory and uncompress them using 
     
     ```
-    wget https://fgdata.oss-cn-hongkong.aliyuncs.com/CUB200-Google-100-DDN.tar.gz
-    wget https://fgdata.oss-cn-hongkong.aliyuncs.com/CUB200-Google-100-Bilinear.tar.gz
+    wget https://fgdata-sh.oss-cn-shanghai.aliyuncs.com/CUB200-Google-100-DDN.tar.gz
+    wget https://fgdata-sh.oss-cn-shanghai.aliyuncs.com/CUB200-Google-100-Bilinear.tar.gz
     tar -xvf CUB200-Google-100-DDN.tar.gz
     tar -xvf CUB200-Google-100-Bilinear.tar.gz
     ```
@@ -30,7 +30,7 @@ The code is currently tested only on GPU.
     If you just want to do a quick test on the model and check the final fine-grained recognition performance, please follow subsequent steps
     - Download one of the following trained models into `demo/model` using
         ```
-        wget https://fgdata.oss-cn-hongkong.aliyuncs.com/Model/DDN_Performance_79.80.pth
+        wget https://fgdata-sh.oss-cn-shanghai.aliyuncs.com/Model/DDN_Performance_79.80.pth
         ```
         | Model                                   | Description                                                  | Performance(%) |
         | --------------------------------------- | ------------------------------------------------------------ | -------------- |
