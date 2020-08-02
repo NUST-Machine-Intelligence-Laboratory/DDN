@@ -1,0 +1,11 @@
+.idea/
+.env/
+__pycache__/
+model/
+log/
+*.pyc
+.DS_Store
+*.code-workspace
+*.log
+data/
+noise-list.txt
