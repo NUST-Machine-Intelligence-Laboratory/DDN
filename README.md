@@ -1,6 +1,6 @@
 Introduction
 ------------
-This is the source code for our paper **Bridging the Web Data and Fine-Grained Visual Recognition via Alleviating Label Noise and Domain Mismatch**
+This is the source code for our paper **Deep Denoising Network for Fine-Grained Visual Recognition**
 
 Network Architecture
 --------------------
@@ -51,16 +51,3 @@ The code is currently tested only on GPU.
         ```
         bash runall.sh
         ```
-
-
-Citation
----
-If you find this useful in your research, please consider citing:
-```
-@inproceedings{yao2020ddn,
-title={Bridging the Web Data and Fine-Grained Visual Recognition via Alleviating Label Noise and Domain Mismatch},
-author={Yazhou Yao, Xiansheng Hua, Guanyu Gao, Zeren Sun, Zhibin Li, JIan Zhang},
-booktitle={ACM International Conference on Multimedia (ACM MM)},
-year={2020}
-}
-```
